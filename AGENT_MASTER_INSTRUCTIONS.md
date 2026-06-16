@@ -7,7 +7,7 @@
 - **Mandates:** Priorizar a eficiência do contexto e a precisão das ferramentas.
 
 ## 2. Engineering Standards (Akita-Grade / Opus Way)
-- **Zero Silence:** Proibido `except: pass`. Erros devem ser expostos e logados em `~/.auth/auth.log`.
+- **Zero Silence:** Proibido `except: pass`. Erros devem ser expostos e logados em `~/.antigravity-auth/auth.log`.
 - **Surgicality:** Edições mínimas e precisas. Priorizar `replace` sobre `write_file` em arquivos grandes.
 - **Empirical Validation:** Testar tudo antes de entregar. Usar `run_shell_command` para validar caminhos, binários e fluxos.
 - **Dynamic Discovery:** Nunca usar caminhos hardcoded para binários mutáveis. Buscar via `PATH` ou `shutil.which`.
@@ -23,7 +23,7 @@ Na primeira mensagem de cada sessão, o agente deve:
 ## 4. SYNC Ecosystem Usage
 - **auth:** Usado para trocar de conta e modelo. Retorna comandos de export para o shell.
 - **agy3:** O túnel de limpeza. Sempre verificar se ele está encontrando o motor dinamicamente.
-- **gmna:** O seletor rápido. Deve ser mantido sincronizado com o mestre `auth`.
+- **antigravity-cli:** O seletor rápido. Deve ser mantido sincronizado com o mestre `auth`.
 - **sync:** O repositório central. Commits devem seguir o padrão de humor ácido definido.
 
 ## 5. System Knowledge

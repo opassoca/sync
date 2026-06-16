@@ -5,7 +5,7 @@
   - *Uso:* `auth` (O wrapper no `.bashrc` já faz o `eval`).
 - **`oauth`**: Atalho para autenticação de novas contas Google.
 - **`agy3`**: Motor de proxy/túnel para o CLI oficial.
-- **`gmna`**: Seletor rápido de modelos e contas via linha de comando.
+- **`antigravity-cli`**: Seletor rápido de modelos e contas via linha de comando.
 
 ## 2. Atalhos do Painel `auth`
 | Tecla | Ação |
@@ -28,7 +28,7 @@
 ## 4. Arquitetura Técnica (Para IAs e Curiosos)
 - **Daemon:** O `gemini-sync-daemon.py` roda em background cuidando do cache de cotas.
 - **Integridade:** `ANDROID_ROOT=/system` e `ANDROID_DATA=/data` são OBRIGATÓRIOS.
-- **Logs:** Auditoria em `~/.auth/auth.log`. Se algo quebrar, olhe lá primeiro.
+- **Logs:** Auditoria em `~/.antigravity-auth/auth.log`. Se algo quebrar, olhe lá primeiro.
 - **Fim da Linha:** O motor CLI oficial morre em 18/06/2026. Preparar para o **Agentic 2.0**.
 
 ---

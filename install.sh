@@ -13,10 +13,10 @@ echo "[*] Installing Consumer: Agy3..."
 cd "$PROJECT_DIR/agy3" && ./install.sh
 
 echo "[*] Installing Consumer: GMNA..."
-cd "$PROJECT_DIR/gmna" && ./install.sh
+cd "$PROJECT_DIR/antigravity-cli" && ./install.sh
 
 echo ""
 echo "✨ SYNC Sync Installed Successfully!"
-echo "◈ Commands: auth, oauth, agy3, gmna"
+echo "◈ Commands: auth, oauth, agy3, antigravity-cli"
 # PDK: SYNC MASTER INSTALLER - Carioca Enthusiast Edition
 echo "------------------------------------------------"

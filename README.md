@@ -14,12 +14,12 @@ O **SYNC** (Paçoca Deterministic Kernel) é a estrutura unificada que organiza 
 
 ### 🔒 [Master] Auth (`/auth`)
 O painel mestre de identidade. Gerencia tokens e define a conta ativa.
-*   **Truth Source:** `~/.auth/google_accounts.json`
+*   **Truth Source:** `~/.antigravity-auth/google_accounts.json`
 
 ### ⚡ [Consumer] Agy3 (`/agy3`)
 Túnel de execução para o motor oficial Gemini CLI.
 
-### 🔄 [Consumer] GMNA (`/gmna`)
+### 🔄 [Consumer] GMNA (`/antigravity-cli`)
 Seletor de perfis ultra-rápido integrado ao mestre.
 
 ---
@@ -27,7 +27,7 @@ Seletor de perfis ultra-rápido integrado ao mestre.
 ## 🛠️ Instalação Unificada
 
 ```bash
-gh repo clone opassoca/sync
+gh repo clone opassoca/antigravity
 cd sync
 ./install.sh
 ```

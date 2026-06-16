@@ -7,14 +7,14 @@
 
 ## 2. Padrões de Engenharia (Akita-Grade)
 - **Sem Erros Silenciosos:** Proibido o uso de `except: pass`. Todo erro deve ser logado ou exposto.
-- **Logging Profissional:** Centralizado em `~/.auth/auth.log`. Auditoria total de trocas de conta e motor.
+- **Logging Profissional:** Centralizado em `~/.antigravity-auth/auth.log`. Auditoria total de trocas de conta e motor.
 - **Descoberta Dinâmica:** Ferramentas (como `agy3`) devem buscar binários oficiais no `PATH` dinamicamente para evitar caminhos hardcoded e problemas de DMCA.
 - **Integridade Android:** Proibido falsificar a plataforma como "linux" se isso quebrar o Android Runtime (ART). `ANDROID_ROOT` e `ANDROID_DATA` devem estar sempre definidos como `/system` e `/data`.
 
 ## 3. Estrutura do Ecossistema SYNC
 - **auth:** Script mestre de interface (curses) para gestão de contas OAuth e API Keys.
 - **agy3:** Engine de proxy e túnel que limpa a execução para o motor oficial.
-- **gmna:** Seletor rápido de contas integrado ao motor oficial.
+- **antigravity-cli:** Seletor rápido de contas integrado ao motor oficial.
 - **sync:** Repositório mestre que coordena os submódulos.
 
 ## 4. Troubleshooting de Navegador/CLI

@@ -16,6 +16,6 @@ echo "[*] Installing Consumer: GMNA..."
 cd "$PROJECT_DIR/gmna" && ./install.sh
 
 echo ""
-echo "✨ SYNC Ecosystem Installed Successfully!"
+echo "✨ SYNC Sync Installed Successfully!"
 echo "◈ Commands: auth, oauth, agy3, gmna"
 echo "------------------------------------------------"

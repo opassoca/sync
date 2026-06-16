@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-echo "◈ PDK - Master Installer ◈"
+echo "◈ SYNC - Master Installer ◈"
 
 PROJECT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
@@ -16,6 +16,6 @@ echo "[*] Installing Consumer: GMNA..."
 cd "$PROJECT_DIR/gmna" && ./install.sh
 
 echo ""
-echo "✨ PDK Ecosystem Installed Successfully!"
+echo "✨ SYNC Ecosystem Installed Successfully!"
 echo "◈ Commands: auth, oauth, agy3, gmna"
 echo "------------------------------------------------"
